@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 	
-	set -e
+	set -ex
 	
 	# TODO: Set to URL of gitlab repo.
 	PROJECT_GIT_URL='https://github.com/fyunka/profiles-rest-api.git'
