@@ -26,9 +26,9 @@ SECRET_KEY = '=2p^(fqyk+q=hb8e=a@!0y=wfkjoz#b)t=iii6k47ps%iim0iq'
 DEBUG = True
 
 ALLOWED_HOSTS = [ 
-    # '0.0.0.0',
-    # 'localhost',
-    # '127.0.0.1',
+    '0.0.0.0',
+    'localhost',
+    '127.0.0.1',
     'ec2-18-191-199-249.us-east-2.compute.amazonaws.com',
 ]
 
@@ -125,8 +125,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
-STATIC_ROOT = os.path.join(BASE_DIR, "static/")
-STATICFILES_DIRS = ("/usr/local/virtualenvs/profiles_api/lib/python3.7/site-packages/django/contrib/admin/static/admin", )
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
