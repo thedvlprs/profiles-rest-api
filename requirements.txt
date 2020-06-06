@@ -1,4 +1,4 @@
 -i https://pypi.org/simple/
-django==1.11.28
+django==1.11.29
 djangorestframework==3.9.1
 pytz==2019.2
