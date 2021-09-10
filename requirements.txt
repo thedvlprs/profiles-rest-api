@@ -9,4 +9,4 @@
 django==2.2.24
 djangorestframework==3.11.2
 pytz==2019.2
-sqlparse==0.4.1; python_version >= '3.5'
+sqlparse==0.4.2
